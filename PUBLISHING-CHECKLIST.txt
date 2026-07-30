@@ -1,0 +1,52 @@
+BEFORE THE VOW, THERE WAS YOU
+MASTER PUBLISHING CHECKLIST v2.0
+
+PREPARATION
+[ ] Duplicate the untouched Master Template v2.0 folder
+[ ] Rename the duplicate for the recipient
+[ ] Open the duplicate folder in VS Code
+[ ] Edit content.js only
+
+CONTENT
+[ ] Replace every [RECIPIENT] placeholder
+[ ] Confirm browser title and description
+[ ] Confirm dedication
+[ ] Confirm personal letter title
+[ ] Confirm letter kicker
+[ ] Confirm introductory pages
+[ ] Confirm every letter page
+[ ] Confirm proposal introduction
+[ ] Confirm proposal question
+[ ] Confirm personal thank-you page
+[ ] Confirm gratitude message
+[ ] Confirm colophon name
+[ ] Search the entire content.js for leftover names from another volume
+
+LOCAL TEST
+[ ] Open index.html
+[ ] Confirm cover and Tap to Open button
+[ ] Turn through every page
+[ ] Confirm no page is cut off in a normal browser
+[ ] Confirm acceptance button works
+[ ] Confirm seal appears on cover
+[ ] Confirm seal appears on title page
+[ ] Confirm engagement photo appears
+[ ] Confirm seal appears on colophon
+[ ] Confirm total page count
+
+GITHUB
+[ ] Create repository in GitHub Desktop using the recipient folder
+[ ] Do not initialize with a README
+[ ] Commit all files
+[ ] Publish repository as Public
+[ ] GitHub Settings → Pages
+[ ] Deploy from branch: main
+[ ] Folder: /(root)
+[ ] Save and wait for deployment
+
+FINAL
+[ ] Open the published link in Chrome or Safari
+[ ] Check every page once more
+[ ] Test the link from Messenger
+[ ] Use Open in External Browser if Messenger compresses the page height
+[ ] Send the final link to the recipient

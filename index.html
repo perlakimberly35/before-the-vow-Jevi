@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#150b08">
+<title>Before the Vow, There Was You</title>
+<meta name="description" content="A mobile-first digital literary keepsake.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+  <div class="ambient" aria-hidden="true"></div>
+  <section class="book" aria-label="Before the Vow, There Was You">
+    <div class="cover-wrap" id="coverWrap">
+      <div class="cover cloth">
+        <div class="cover-edge"></div><div class="cover-rule"></div>
+        <div class="cover-copy">
+          <div class="cover-kicker">BEFORE THE VOW,</div>
+          <div class="cover-line foil">THERE WAS</div>
+          <div class="cover-you foil">You</div>
+          <div class="cover-subtitle">The chapters we wrote together.</div>
+        </div>
+        <img class="official-seal cover-seal" id="coverSeal" src="assets/final-wax-seal.png" alt="Kimberly literary seal">
+        <button class="open-button" id="openButton" type="button">Tap to open the keepsake</button>
+      </div>
+    </div>
+    <div class="reader" id="reader" hidden>
+      <div class="page-shell">
+        <article class="page"><div class="page-content" id="pageContent"></div><div class="page-corner"></div></article>
+        <div class="turn-layer" id="turnLayer"><div class="turn-front"></div><div class="turn-back"></div></div>
+      </div>
+      <div class="reader-footer">
+        <div class="reader-progress" id="readerProgress"></div>
+        <div class="tap-hint">Tap right to continue · swipe left or right</div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
